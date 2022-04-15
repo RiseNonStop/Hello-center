@@ -1,3 +1,11 @@
+<html>
+
+<body class="body">
+
+</body>
+
+</html>
+
 <p class="hello">
     Hello World
 </p>
@@ -14,8 +22,10 @@
 </div>
 <style>
     .center {
-        margin: 200px;
+        position: fixed;
         text-align: center;
+        width: 100%;
+        bottom: 50%;
     }
 </style>
 <div class="bottom">
@@ -24,7 +34,15 @@
 
 <style>
     .bottom {
-        margin: 200px;
+        position: fixed;
         text-align: center;
+        bottom: 0px;
+        width: 100%;
+    }
+</style>
+<style>
+    .body {
+        margin: 0;
+        height: 100%;
     }
 </style>
